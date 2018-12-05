@@ -1,0 +1,36 @@
+{
+  "name": "@cca-io/bs-rn-fetch-blob",
+  "version": "0.1.0",
+  "description": "Reason/BuckleScript bindings for rn-fetch-blob",
+  "main": "src/RNFetchBlob.bs.js",
+  "repository": "https://github.com/cca-io/bs-rn-fetch-blob.git",
+  "author": "Christoph Knittel <ck@cca.io>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "bs:build": "bsb",
+    "bs:clean": "bsb -clean",
+    "format": "bsrefmt --in-place src/*.re"
+  },
+  "peerDependencies": {
+    "bs-platform": "^4.0.6",
+    "rn-fetch-blob": "^0.10.13"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.6"
+  },
+  "files": [
+    "src",
+    "bsconfig.json"
+  ],
+  "keywords": [
+    "react",
+    "react-native",
+    "rn-fetch-blob",
+    "react-native-fetch-blob",
+    "reason",
+    "reasonml",
+    "ocaml",
+    "bucklescript"
+  ]
+}

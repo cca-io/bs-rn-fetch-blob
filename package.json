@@ -1,6 +1,6 @@
 {
   "name": "@cca-io/bs-rn-fetch-blob",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Reason/BuckleScript bindings for rn-fetch-blob",
   "main": "src/RNFetchBlob.bs.js",
   "repository": "https://github.com/cca-io/bs-rn-fetch-blob.git",

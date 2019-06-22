@@ -2,7 +2,7 @@ type t;
 [@bs.module "rn-fetch-blob"] external fetchBlob: t = "default";
 
 module Config = {
-  [@bs.deriving abstract]
+  [@bs.deriving {abstract: light}]
   type t = {
     [@bs.optional]
     fileCache: bool,
@@ -44,7 +44,7 @@ module Fetch = {
 
 module Fs = {
   module Stat = {
-    [@bs.deriving abstract]
+    [@bs.deriving {abstract: light}]
     type t = {
       filename: string,
       path: string,

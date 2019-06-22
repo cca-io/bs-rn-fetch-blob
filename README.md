@@ -18,7 +18,7 @@ Then add bs-rn-fetch-blob to the dependencies in your bsconfig.json, e.g.:
 {
   "name": "my-app",
   ...
-  "bs-dependencies": ["reason-react", "bs-react-native", "bs-rn-fetch-blob"],
+  "bs-dependencies": ["reason-react", "reason-react-native", "bs-rn-fetch-blob"],
   ...
 }
 

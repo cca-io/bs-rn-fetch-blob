@@ -13,11 +13,11 @@
     "format": "bsrefmt --in-place src/*.re"
   },
   "peerDependencies": {
-    "bs-platform": "^4.0.6",
+    "bs-platform": ">=5.0.4",
     "rn-fetch-blob": "^0.10.13"
   },
   "devDependencies": {
-    "bs-platform": "^4.0.6"
+    "bs-platform": "^5.0.4"
   },
   "files": [
     "src",
@@ -26,6 +26,7 @@
   "keywords": [
     "react",
     "react-native",
+    "reason-react-native",
     "rn-fetch-blob",
     "react-native-fetch-blob",
     "reason",
